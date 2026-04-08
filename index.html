@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotiguarDev | Software e Consultoria Digital Premium</title>
+
+    <!-- Meta Tags SEO -->
+    <meta name="description"
+        content="PotiguarDev - Transformando ideias em produtos digitais de alta performance no RN. Especialistas em Web, Software e Consultoria.">
+    <meta name="keywords"
+        content="desenvolvimento web, softwarehouse, natal rn, consultoria tech, aplicativos, nextjs, react">
+    <meta name="author" content="PotiguarDev">
+
+    <!-- Google Fonts: Outfit & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <!-- Navegação -->
+    <nav id="navbar" class="nav-glass">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-text">Potiguar<span class="text-accent">Dev</span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#eventos">Eventos</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#equipe">Equipe</a></li>
+                <li><a href="#contato" class="btn-primary-sm">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <i data-lucide="menu"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="container hero-content">
+            <div class="badge fade-in">Potencializando o Rio Grande do Norte</div>
+            <h1 class="fade-in-up">Transformamos sua <span class="text-gradient">Visão</span> em <span
+                    class="text-gradient">Realidade Digital</span>.</h1>
+            <p class="fade-in-up delay-1">Sistemas web inteligentes, softwares exclusivos e consultoria estratégica de
+                alto nível.</p>
+            <div class="hero-btns fade-in-up delay-2">
+                <a href="#contato" class="btn-primary">Iniciar Projeto</a>
+                <a href="#servicos" class="btn-secondary">Nossas Soluções</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="glow shadow-blue"></div>
+            <div class="glow shadow-blue-alt"></div>
+        </div>
+    </header>
+
+    <!-- Galeria de Momentos -->
+    <section id="galeria" class="section">
+        <div class="container">
+            <div class="section-header align-center">
+                <h2 class="section-title">Nosso <span class="text-accent">Dia a Dia</span></h2>
+                <p class="section-subtitle">Momentos marcantes, eventos e a cultura que move a PotiguarDev.</p>
+            </div>
+
+            <div class="gallery-slider-container">
+                <button class="gallery-btn prev" aria-label="Anterior"><i data-lucide="chevron-left"></i></button>
+                <div class="gallery-slider" id="gallerySlider">
+                    <div class="gallery-item reveal">
+                        <img src="assets/eventos/GO RN.png" alt="Premiação Go!RN">
+                        <div class="gallery-overlay">
+                            <span>Premiação Go!RN</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal">
+                        <img src="assets/eventos/Desafio.png" alt="Nossa Sede">
+                        <div class="gallery-overlay">
+                            <span>Conexão ODS</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item reveal">
+                        <img src="assets/eventos/Apresentação.png" alt="Brainstorming">
+                        <div class="gallery-overlay">
+                            <span>Conexões</span>
+                        </div>
+                    </div>
+
+                </div>
+                <button class="gallery-btn next" aria-label="Próximo"><i data-lucide="chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="section">
+        <div class="container">
+            <div class="section-header align-center">
+                <h2 class="section-title">Nossas Especialidades</h2>
+                <p class="section-subtitle">Soluções completas para cada etapa do seu crescimento tecnológico.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card glass reveal">
+                    <div class="icon-box">
+                        <i data-lucide="layout"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sistemas modernos, seguros e escaláveis que funcionam perfeitamente em qualquer dispositivo.</p>
+                </div>
+                <div class="service-card glass reveal">
+                    <div class="icon-box">
+                        <i data-lucide="cpu"></i>
+                    </div>
+                    <h3>Softwares Sob Medida</h3>
+                    <p>Criação de ferramentas exclusivas para otimizar processos e elevar a produtividade da sua equipe.
+                    </p>
+                </div>
+                <div class="service-card glass reveal">
+                    <div class="icon-box">
+                        <i data-lucide="trending-up"></i>
+                    </div>
+                    <h3>Consultoria Digital</h3>
+                    <p>Estratégias inteligentes para superar desafios tecnológicos e acelerar resultados de negócios.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eventos & Conquistas -->
+    <section id="eventos" class="section alternate-bg">
+        <div class="container grid-two-cols align-items-center">
+            <div class="event-image-container reveal">
+                <!-- Imagem gerada ou asset representativo -->
+                <div class="event-card-main glass">
+                    <div class="trophy-badge"><i data-lucide="award"></i> 3º Lugar</div>
+                    <h4>Go!RN - Desafio EliAgro</h4>
+                    <p>Reconhecimento em um dos maiores festivais de empreendedorismo do estado.</p>
+                </div>
+            </div>
+            <div class="event-text reveal">
+                <h2 class="section-title">Experiência e <span class="text-accent">Reconhecimento</span></h2>
+                <p>Nossa jornada é marcada pela participação ativa na comunidade tech regional. De Hackathons ao Go!RN,
+                    aplicamos nossa expertise para resolver problemas reais.</p>
+                <ul class="check-list">
+                    <li><i data-lucide="check-circle"></i> Vencedores de Desafios de Inovação</li>
+                    <li><i data-lucide="check-circle"></i> Participação ativa no #CPWeekendAracaju</li>
+                    <li><i data-lucide="check-circle"></i> Integração com ecossistemas de startups</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="section">
+        <div class="container align-center">
+            <div class="reveal">
+                <h2 class="section-title">Nascida para <span class="text-gradient">Inovar</span></h2>
+                <p class="max-width-700">A PotiguarDev é uma empresa do Rio Grande do Norte que cria soluções digitais
+                    moderna, acessíveis e escaláveis para transformar ideias em produtos reais. Fundada em 2024 por
+                    Eraldo Palhares e Lourival Barboza, começou com o desenvolvimento de um chatbot inteligente e
+                    evoluiu para uma equipe multidisciplinar. Hoje, atua com tecnologia, design e marketing para
+                    entregar resultados concretos, mantendo o propósito de fortalecer o potencial tecnológico do RN.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Equipe -->
+    <section id="equipe" class="section alternate-bg">
+        <div class="container">
+            <div class="section-header align-center">
+                <h2 class="section-title">Nossa <span class="text-accent">Equipe</span></h2>
+                <p class="section-subtitle">Mentes experientes e talentosas dedicadas a transformar desafios em inovação
+                    de alto impacto. Deslize para conhecer todos.</p>
+            </div>
+
+            <div class="team-slider-container">
+                <button class="slider-btn prev" aria-label="Anterior"><i data-lucide="chevron-left"></i></button>
+                <div class="team-slider" id="teamSlider">
+                    <!-- Membro 1 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/eraldo.jpg" alt="Eraldo Palhares"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Eraldo+Palhares&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Eraldo Palhares</h3>
+                            <p class="role">CEO</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 2 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/lourival.jpg" alt="Lourival Barbosa"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Lourival+Barbosa&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Lourival Barbosa</h3>
+                            <p class="role">Co-CEO</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 3 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/wilton.jpg" alt="Wilton Araújo"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Wilton+Araujo&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Wilton Araújo</h3>
+                            <p class="role">UX/UI Designer</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 4 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/juliany.jpg" alt="Juliany Fonseca"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Juliany+Fonseca&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Juliany Fonseca</h3>
+                            <p class="role">Grt de Marketing</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 5 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/leticia.jpg" alt="Leticia"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Leticia&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Leticia</h3>
+                            <p class="role">Marketing</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 6 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/rafael.jpg" alt="Rafael Cavalcante"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Rafael+Cavalcante&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Rafael Cavalcante</h3>
+                            <p class="role">Gerente de Projeto</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Membro 7 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/gabriel.jpg" alt="Gabriel Rocha"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Gabriel+Rocha&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Gabriel Rocha</h3>
+                            <p class="role">Dev Front-End</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 8 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/wesley.jpg" alt="Wesley Santos"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Wesley+Santos&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Wesley Santos</h3>
+                            <p class="role">Dev Back-End</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 9 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/marcos.jpg" alt="Marcos Junior"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Marcos+Junior&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Marcos Junior</h3>
+                            <p class="role">Dev Full-Stack</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Membro 10 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/joao.jpg" alt="João Victor"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Joao+Victor&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>João Victor</h3>
+                            <p class="role"> RH</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Membro 11 -->
+                    <div class="team-card-v2 glass">
+                        <div class="team-photo">
+                            <img src="assets/equipe/carlos.jpg" alt="Carlos Alberto"
+                                onerror="this.src='https://ui-avatars.com/api/?name=Carlos+Alberto&background=3b82f6&color=fff&size=128'">
+                        </div>
+                        <div class="team-info">
+                            <h3>Carlos Alberto</h3>
+                            <p class="role">Analista de Requisitos</p>
+                            <div class="team-social-v2">
+                                <a href="#" aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" width="20"
+                                        height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                        class="lucide-icon">
+                                        <path
+                                            d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                        </path>
+                                        <rect width="4" height="12" x="2" y="9"></rect>
+                                        <circle cx="4" cy="4" r="2"></circle>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slider-btn next" aria-label="Próximo"><i data-lucide="chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contato -->
+    <section id="contato" class="section-footer">
+        <div class="container">
+            <div class="contact-box glass reveal">
+                <div class="contact-info">
+                    <h2>Vamos construir o futuro juntos?</h2>
+                    <p>Fale conosco e descubra como podemos ajudar seu negócio a escalar.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Instagram">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide-icon">
+                                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="#" aria-label="LinkedIn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide-icon">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect width="4" height="12" x="2" y="9"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-action">
+                    <a href="https://wa.me/5584XXXXXXXXX" class="btn-primary" target="_blank">
+                        <i data-lucide="message-circle"></i> Iniciar Projeto
+                    </a>
+                </div>
+
+            </div>
+
+            <footer class="footer align-center">
+                <p>&copy; 2024 PotiguarDev Agency. Todos os direitos reservados.</p>
+            </footer>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="main.js"></script>
+</body>
+
+</html>
