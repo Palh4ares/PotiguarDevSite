@@ -506,8 +506,12 @@
             </div>
 
             <footer class="footer align-center">
-                <p>&copy; 2024 PotiguarDev. Todos os direitos reservados.</p>
-            </footer>
+    <p>&copy; <span id="year"></span> PotiguarDev • Todos os direitos reservados</p>
+</footer>
+
+<script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+</script>
         </div>
     </section>
 

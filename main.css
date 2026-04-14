@@ -449,20 +449,11 @@ nav .container {
 }
 
 .footer {
-    border-top: 1px solid var(--glass-border);
-    padding: 3rem 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    color: var(--text-secondary);
-    font-size: 0.9rem;
-}
-
-.footer-links {
-    display: flex;
-    gap: 2rem;
+    padding: 30px 0;
+    border-top: 1px solid #1e293b;
+    color: #94a3b8;
+    font-size: 14px;
+    text-align: center;
 }
 
 /* Animations */
